@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "loginapplication;free-crm-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8811994149,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "loginPage.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19747519,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "loginPage.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1074855548,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"simplynasir77@gmail.com\" and \"nasir123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "simplynasir77@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "nasir123",
+                  "offset": 43
+                }
+              ],
+              "location": "loginPage.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2858905444,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "loginPage.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10080731,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "loginPage.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1645219069,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "loginPage.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "loginApplication",
+    "description": "",
+    "id": "loginapplication",
+    "keyword": "Feature",
+    "uri": "D:/Mavenproject/BDDFramework/src/test/java/Feature/login.feature"
+  }
+]
